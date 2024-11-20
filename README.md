@@ -1,42 +1,69 @@
-# Site Web du Cabinet de Psychothérapie
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cabinet de psychothérapie – Consultations individuelles et de couple">
+    <title>Cabinet de Psychothérapie | Nom du Psychologue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-Bienvenue sur le dépôt GitHub du site web pour le cabinet de psychothérapie. Ce site a été conçu pour offrir une présentation professionnelle et accueillante d'un cabinet de psychothérapie, avec un design minimaliste et épuré.
+    <!-- En-tête avec navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-## Objectif du projet
+    <!-- Section principale (Bannière) -->
+    <section class="hero">
+        <img src="images/image1.jpg" alt="Cabinet de psychothérapie" class="hero-image">
+        <div class="hero-text">
+            <h1>Bienvenue au Cabinet de Psychothérapie</h1>
+            <p>Thérapie pour adultes, adolescents et couples</p>
+            <a href="contact.html" class="cta-button">Prendre rendez-vous</a>
+        </div>
+    </section>
 
-Le but de ce site est de présenter les services d'une psychologue (ou d'un psychothérapeute), fournir des informations pratiques aux patients potentiels, et offrir un moyen facile de prendre contact ou de réserver des consultations.
+    <!-- Section À propos -->
+    <section class="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Je suis psychologue diplômée, spécialisée dans la prise en charge des troubles de l'anxiété, du stress, des dépressions et des problèmes relationnels.</p>
+            <img src="images/image2.jpg" alt="Photo du cabinet" class="about-image">
+        </div>
+    </section>
 
-### Fonctionnalités principales :
+    <!-- Section Services -->
+    <section class="services">
+        <div class="container">
+            <h2>Mes services</h2>
+            <div class="service-card">
+                <h3>Consultation individuelle</h3>
+                <p>Accompagnement personnalisé pour adultes et adolescents.</p>
+            </div>
+            <div class="service-card">
+                <h3>Consultation de couple</h3>
+                <p>Thérapie de couple pour résoudre les conflits et améliorer la communication.</p>
+            </div>
+            <div class="service-card">
+                <h3>Consultation en ligne</h3>
+                <p>Sessions à distance via visioconférence pour plus de flexibilité.</p>
+            </div>
+        </div>
+    </section>
 
-- **Présentation du thérapeute** : Un espace pour se présenter, partager ses qualifications et son approche thérapeutique.
-- **Description des services** : Détails sur les types de consultations proposées (individuelles, de couple, en ligne).
-- **Page de prise de rendez-vous** : Un formulaire de contact ou une solution pour réserver des consultations en ligne.
-- **Page de contact** : Informations pratiques pour joindre le cabinet.
-- **Design responsive** : Le site est adapté aux smartphones, tablettes et ordinateurs.
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nom du Psychologue. Tous droits réservés.</p>
+        </div>
+    </footer>
 
-## Technologies utilisées
-
-Le site est construit avec les technologies suivantes :
-
-- **HTML5** : Pour la structure du site.
-- **CSS3** : Pour le design et la mise en page.
-- **JavaScript** : Pour l’interactivité (ex. : formulaires de contact, gestion des rendez-vous).
-- **FontAwesome** : Pour les icônes.
-- **Google Fonts** : Pour les polices modernes et élégantes.
-- **React** (optionnel) : Si le site est dynamique ou interactif, comme pour un calendrier de rendez-vous en ligne.
-- **Netlify** (ou un autre hébergeur gratuit comme GitHub Pages) : Pour l’hébergement du site.
-
-## Installation
-
-Si vous souhaitez installer ce projet en local, voici les étapes :
-
-### Prérequis
-
-- Avoir installé [Node.js](https://nodejs.org/), si vous utilisez React ou un générateur de site statique.
-- Avoir un éditeur de texte comme [VS Code](https://code.visualstudio.com/) pour travailler sur le code.
-
-### Étapes d’installation
-
-1. Clonez ce dépôt :
-   ```bash
-   git clone https://github.com/votre-nom/utilisateur/cabinet-psychotherapie.git
+</body>
+</html>
